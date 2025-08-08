@@ -24,6 +24,7 @@ public struct ToolProperties: Codable {
     let sign: ToolPropertyDetail
 }
 
+
 public struct ToolPropertyDetail: Codable {
     let type: String
     let description: String
@@ -31,6 +32,7 @@ public struct ToolPropertyDetail: Codable {
     public init(type: String, description: String) {
         self.type = type
         self.description = description
+
     }
 }
 
